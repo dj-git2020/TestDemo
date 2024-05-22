@@ -13,6 +13,7 @@ public class Demo {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.saucedemo.com/");
 		Thread.sleep(1000);
+		System.out.println("Hello");
 		driver.close();
 	}
 
